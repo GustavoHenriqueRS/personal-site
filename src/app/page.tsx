@@ -308,8 +308,8 @@ export default function Home() {
     const socialMediaComponent = Object.keys(sociaMedia).map((key) => {
         return (
             <div
+                key={key + "socialMedia"}
                 className="flex flex-col items-center w-1/2 overflow-hidden hover:scale-105 transition-all duration-200 ease-in-out mt-12 gap-4"
-                key={key}
             >
                 <h1 className="font-light text-xl">
                     {sociaMedia[key as keyof typeof sociaMedia].name}
