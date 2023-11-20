@@ -281,8 +281,8 @@ export default function Home() {
 
         return (
             <div
-                className="flex flex-col items-center w-1/2 overflow-hidden hover:scale-105 transition-all duration-200 ease-in-out"
                 key={key}
+                className="flex flex-col items-center w-1/2 overflow-hidden hover:scale-105 transition-all duration-200 ease-in-out"
             >
                 <h1 className="font-light text-xl">{project.name}</h1>
                 <button
